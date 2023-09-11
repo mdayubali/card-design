@@ -56,6 +56,7 @@ section.contianer-fluid{
     margin-block: 10px;
 }
 .btn{
+    color: #090909;
     display: inline-flex;
     margin-block: 10px;
     border: 1px solid rgba(5, 5, 5, 0.8);
