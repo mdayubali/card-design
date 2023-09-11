@@ -1,0 +1,70 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+svg,
+img{
+    display: block;
+}
+section.contianer-fluid{
+    background: rgba(246, 244, 244, 0.77);
+    width: 100%;
+    padding: 60px 0;
+}
+.container{
+    max-width: 95%;
+    margin: auto;
+    padding: 0 15px;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    background: #fdfcfcdd;
+    width: 33.3%;
+    padding: 15px;
+    border-radius: 8px;
+    transition: .2s;
+    box-shadow: 0 3px 10px rgba(5, 5, 5, 0.2);
+}
+.card:hover{
+    box-shadow: 0 3px 10px rgba(5, 5, 5, 0.3);
+}
+.card-img-top{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card-title{
+    font-size: 24px;
+}
+.card-text{
+    margin-block: 10px;
+}
+.btn{
+    display: inline-flex;
+    margin-block: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.btn:hover{
+    background: rgba(234, 233, 233, 0.209);
+    color:rgba(5, 5, 5, 0.8)
+}
