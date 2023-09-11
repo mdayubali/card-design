@@ -1,0 +1,9 @@
+@media only screen and (min-width: 325px) and (max-width: 425px){
+    .wrapper{
+        height: auto;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
